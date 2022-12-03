@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+/*------------------------------Toca o tema de cores-------------------------------------*/
+:has(#tema:checked) body{
+    background-color: var(--dk-color-3);
+}
+
+:has(#tema:checked) header{
+    background-color: var(--dk-color-1);
+    color: var(--dk-color-5);
+}
+
+:has(#tema:checked) header > label:hover{
+    color: var(--dk-color-4);
+}
+
+:has(#tema:checked) #resumo{
+    border-color: var(--dk-color-1);
+}
+
+:has(#tema:checked) #resumo > p{
+    color: var(--dk-color-5);
+}
+
+:has(#tema:checked) #redes > a{
+    color: var(--dk-color-5);
+}
+
+:has(#tema:checked) #redes > a:hover{
+    color: var(--dk-color-4);
+}
+
+:has(#tema:checked) #informacoes{
+    color: var(--dk-color-5);
+}
+
+:has(#tema:checked) #informacoes > h2{
+    color: var(--dk-color-4);
+}
+
+:has(#tema:checked) footer{
+    background-color: var(--dk-color-1);
+}
+
+:has(#tema:checked) footer > a{
+    color: var(--dk-color-5);
+}
+
+:has(#tema:checked) footer > a:hover{
+    color: var(--dk-color-4);
+}
